@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">音乐播放器</string>
+    <string name="app_launcher_name">音乐播放器</string>
+    <string name="playlist_empty">你的音乐列表为空</string>
+    <string name="rename_song">重命名</string>
+    <string name="rename_song_error">重命名发生了错误</string>
+    <string name="rename_song_empty">请填写所有字段</string>
+    <string name="repeat_off">重复了</string>
+    <string name="repeat_song">重复当前歌曲</string>
+    <string name="repeat_playlist">重复所有</string>
+    <string name="stop_playback_after_current_song">当前歌曲后停止播放</string>
+    <string name="enable_shuffle">Enable shuffle</string>
+    <string name="disable_shuffle">Disable shuffle</string>
+    <string name="shuffle_enabled">Shuffle enabled</string>
+    <string name="shuffle_disabled">Shuffle disabled</string>
+    <string name="sleep_timer">睡眠定时器</string>
+    <string name="volume">音量</string>
+    <string name="playback_speed">播放速度</string>
+    <string name="loading_files">加载文件中...</string>
+
+    <!-- Playlists -->
+    <string name="add_file_to_playlist">将文件添加到播放列表</string>
+    <string name="add_folder_to_playlist">将文件夹添加到播放列表</string>
+    <string name="manage_playlists">管理播放列表</string>
+    <string name="playlists">播放列表</string>
+    <string name="create_new_playlist">创建新的播放列表</string>
+    <string name="rename_playlist">重命名播放列表</string>
+    <string name="playlist_name_exists">已存在带有该名称的播放列表</string>
+    <string name="remove_playlist">移动播放列表</string>
+    <string name="remove_playlist_description">这只会删除选定的播放列表。不会删除实际文件。</string>
+    <string name="remove_playlist_description_placeholder">这只会删除播放列表 \"%s\". 不会删除实际文件。</string>
+    <string name="remove_from_playlist">从播放列表中删除</string>
+    <string name="remove_from_playlist_description"></string>
+    <string name="delete_the_files_too">也删除文件</string>
+    <string name="open_playlist">打开播放列表</string>
+    <string name="all_songs_cannot_be_deleted"></string>
+    <string name="empty_playlist">当前播放列表是空的</string>
+    <string name="fetching_songs">获取歌曲…</string>
+    <string name="all_songs">所有歌曲</string>
+    <string name="create_playlist_from_folder">从文件夹创建新的播放列表</string>
+    <string name="folder_contains_no_audio">选定的文件夹不包含音频文件</string>
+    <string name="delete_current_song">删除当前歌曲</string>
+    <string name="remove_current_song">从播放列表中删除当前歌曲</string>
+    <string name="show_filename">显示文件名作为歌曲标题</string>
+    <string name="title_is_not_available">如果标题不可用</string>
+    <string name="show_album_cover">在主屏幕上显示专辑封面</string>
+    <string name="all_tracks">所有曲目</string>
+    <string name="add_to_playlist">添加到播放列表</string>
+    <string name="create_playlist_label"></string>
+
+    <!-- Sorting -->
+    <string name="track_count">足迹数量</string>
+    <string name="album_count">专辑数量</string>
+    <string name="artist_name">艺术家姓名</string>
+    <string name="year">Year</string>
+
+    <!-- Artists -->
+    <string name="artists">艺术家</string>
+    <string name="albums">专辑</string>
+    <plurals name="albums_plural">
+        <item quantity="one">%d Album</item>
+        <item quantity="other">%d Albums</item>
+    </plurals>
+
+    <string name="tracks">历史记录</string>
+    <plurals name="tracks_plural">
+        <item quantity="one">%d Track</item>
+        <item quantity="other">%d Tracks</item>
+    </plurals>
+
+    <!-- Queue -->
+    <string name="next_track">下一首:</string>
+    <string name="track_queue">历史播放记录</string>
+    <string name="add_to_queue">添加到队列</string>
+    <string name="remove_from_queue">从队列中移除</string>
+    <string name="create_playlist_from_queue">从队列创建播放列表</string>
+
+    <!-- Settings -->
+    <string name="equalizer">均衡器</string>
+    <string name="swap_prev_next">交换前/下一个耳机按钮</string>
+
+    <!-- FAQ -->
+    <string name="faq_1_title">我怎样才能快进歌曲？</string>
+    <string name="faq_1_text">您可以单击 seekbar 附近的当前或最大持续时间文本，这些文本将歌曲向后或向前移动。</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">音乐播放器</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">一个简单的音乐播放器</string>
+    <string name="app_long_description">
+        ...................
+        .........
+        ...
+        <b>by 陈永鹏</b>
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
